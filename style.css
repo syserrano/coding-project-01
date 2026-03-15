@@ -1,0 +1,24 @@
+body {
+    font-family:'Lucida Console';
+    background-color: #B72C8A;
+}
+
+h1 {
+    text-align: center;
+    color: #28C1CB;
+    margin-top: 100px;
+}
+
+p {
+    text-align: center;
+    color: #28C1CB;
+    margin-top: 20px;
+}
+
+form {
+    color: #28C1CB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
