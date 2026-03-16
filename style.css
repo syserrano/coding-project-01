@@ -6,7 +6,11 @@ body {
 h1 {
     text-align: center;
     color: #28C1CB;
-    margin-top: 100px;
+    margin-top: 75px;
+    border: 20px;
+    border-radius: 10px;
+    background: #7b1c5d;
+    padding: 10px;
 }
 
 p {
@@ -16,9 +20,57 @@ p {
 }
 
 form {
-    color: #28C1CB;
+    color: #B72C8A;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
+    background-color: #F8C4E4;
+    border: 2px solid #B72C8A;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+button {
+    background-color: #dc73b4;
+    color: black;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #28C1CB;
+    margin-top: 20px;
+    text-align: center;
+    border: 20px;
+    border-radius: 10px;
+    background: #7b1c5d;
+    padding: 10px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: #F8C4E4;
+    padding: 5px;
+}
+
+.feedback {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 200px;
+    background-color: #F8C4E4;
+    display: flex;
+    flex-direction: column;
+}
+
+#char-count {
+    text-align: center;
+    color: #1c7b81;
+    margin-top: 10px;
+    font-size: 12px;
 }
