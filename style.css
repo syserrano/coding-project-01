@@ -56,6 +56,7 @@ h2 {
     cursor: pointer;
     background: #F8C4E4;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .feedback {

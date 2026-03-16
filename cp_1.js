@@ -6,7 +6,7 @@ const charCount = document.getElementById('char-count');
 const feedbackDisplay = document.getElementById('user-feedback');
 const messages = document.getElementById('messages');
 
-// look at this again
+//tooltip functions
 form.addEventListener('mouseover', function(e) {
     if (e.target.classList.contains('field')){
         showTooltip(e.target);
@@ -46,3 +46,17 @@ document.body.addEventListener('click', function(e) {
         e.target.stopPropagation();
     }
 });
+
+function showTooltip(element) {
+    const tooltip = document.createElement('div');
+    tooltip.className = 'tooltip';
+    tooltip.textContent = element.getAttribute(element.id);
+    document.body.appendChild(tooltip);
+}
+
+function hideTooltip(element) {
+    const tooltip = document.querySelector('.tooltip');
+    if (tooltip) {
+        tooltip.remove();
+    }
+}
